@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/dm3q/proprietary/vendor/etc/sensors/config/kailua_lsm6dso_0_8.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_lsm6dso_0_8.json \
     vendor/samsung/dm3q/proprietary/vendor/etc/sensors/config/kailua_stk3a9x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_stk3a9x_0.json \
     vendor/samsung/dm3q/proprietary/vendor/etc/sensors/config/kailua_tmd4913_2.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_tmd4913_2.json \
-    vendor/samsung/dm3q/proprietary/vendor/etc/wifi/kiwi_v2/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/kiwi_v2/WCNSS_qcom_cfg.ini \
     vendor/samsung/dm3q/proprietary/vendor/firmware/00_generic_xtalk_shape.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/00_generic_xtalk_shape.bin \
     vendor/samsung/dm3q/proprietary/vendor/firmware/CAMERA_ICP.b20:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b20 \
     vendor/samsung/dm3q/proprietary/vendor/firmware/CAMERA_ICP.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.mbn \
