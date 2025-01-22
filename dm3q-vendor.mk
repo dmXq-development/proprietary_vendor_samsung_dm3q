@@ -30,16 +30,21 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/dm3q/proprietary/vendor/etc/sensors/config/kailua_ak991x_2.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_ak991x_2.json \
     vendor/samsung/dm3q/proprietary/vendor/etc/sensors/config/kailua_ak991x_3.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_ak991x_3.json \
     vendor/samsung/dm3q/proprietary/vendor/etc/sensors/config/kailua_ak991x_8.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_ak991x_8.json \
+    vendor/samsung/dm3q/proprietary/vendor/etc/sensors/config/kailua_irq.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_irq.json \
+    vendor/samsung/dm3q/proprietary/vendor/etc/sensors/config/kailua_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_lps22hh_0.json \
+    vendor/samsung/dm3q/proprietary/vendor/etc/sensors/config/kailua_lsm6dso_0_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_lsm6dso_0_0.json \
     vendor/samsung/dm3q/proprietary/vendor/etc/sensors/config/kailua_lsm6dso_0_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_lsm6dso_0_1.json \
     vendor/samsung/dm3q/proprietary/vendor/etc/sensors/config/kailua_lsm6dso_0_8.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_lsm6dso_0_8.json \
     vendor/samsung/dm3q/proprietary/vendor/etc/sensors/config/kailua_stk3a9x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_stk3a9x_0.json \
     vendor/samsung/dm3q/proprietary/vendor/etc/sensors/config/kailua_tmd4913_2.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_tmd4913_2.json \
+    vendor/samsung/dm3q/proprietary/vendor/etc/sensors/config/lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lsm6dso_0.json \
     vendor/samsung/dm3q/proprietary/vendor/firmware/00_generic_xtalk_shape.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/00_generic_xtalk_shape.bin \
     vendor/samsung/dm3q/proprietary/vendor/firmware/CAMERA_ICP.b20:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b20 \
     vendor/samsung/dm3q/proprietary/vendor/firmware/CAMERA_ICP.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.mbn \
     vendor/samsung/dm3q/proprietary/vendor/firmware/CAMERA_ICP.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.mdt \
     vendor/samsung/dm3q/proprietary/vendor/firmware/DM3_S6E3HAE_AMB681AZ01.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/DM3_S6E3HAE_AMB681AZ01.dat \
     vendor/samsung/dm3q/proprietary/vendor/firmware/Data.msc:$(TARGET_COPY_OUT_VENDOR)/firmware/Data.msc \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/SoundBoosterParam.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SoundBoosterParam.bin \
     vendor/samsung/dm3q/proprietary/vendor/firmware/a740_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.b02 \
     vendor/samsung/dm3q/proprietary/vendor/firmware/a740_zap.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.mbn \
     vendor/samsung/dm3q/proprietary/vendor/firmware/a740_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.mdt \
@@ -58,6 +63,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/dm3q/proprietary/vendor/firmware/kiwi/phy_ucode20.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/kiwi/phy_ucode20.elf \
     vendor/samsung/dm3q/proprietary/vendor/firmware/kiwi/qdss_trace_config_v2.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/kiwi/qdss_trace_config_v2.cfg \
     vendor/samsung/dm3q/proprietary/vendor/firmware/kiwi/regdb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/kiwi/regdb.bin \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/mfc/mfc_fw_flash.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc/mfc_fw_flash.bin \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/mfc/mfc_fw_flash_cps4038.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc/mfc_fw_flash_cps4038.bin \
     vendor/samsung/dm3q/proprietary/vendor/firmware/ois_mcu_stm32g_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ois_mcu_stm32g_fw.bin \
     vendor/samsung/dm3q/proprietary/vendor/firmware/tsp_stm/fts2ba61y_dm3q.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tsp_stm/fts2ba61y_dm3q.bin \
     vendor/samsung/dm3q/proprietary/vendor/firmware/vl53l8.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vl53l8.bin \
@@ -72,7 +79,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/dm3q/proprietary/vendor/lib64/camera/com.samsung.sensormodule.2_sony_imx564.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.2_sony_imx564.bin \
     vendor/samsung/dm3q/proprietary/vendor/lib64/camera/com.samsung.sensormodule.3_sony_imx754_x3.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.3_sony_imx754_x3.bin \
     vendor/samsung/dm3q/proprietary/vendor/lib64/camera/com.samsung.sensormodule.6_sony_imx754_x10.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.6_sony_imx754_x10.bin \
+    vendor/samsung/dm3q/proprietary/vendor/lib64/camera/com.samsung.tuned.lsi_s5k3lu.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.tuned.lsi_s5k3lu.bin \
     vendor/samsung/dm3q/proprietary/vendor/lib64/camera/com.samsung.tuned.lsi_s5khp2.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.tuned.lsi_s5khp2.bin \
+    vendor/samsung/dm3q/proprietary/vendor/lib64/camera/com.samsung.tuned.sony_imx564.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.tuned.sony_imx564.bin \
     vendor/samsung/dm3q/proprietary/vendor/lib64/camera/com.samsung.tuned.sony_imx754_x10.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.tuned.sony_imx754_x10.bin \
     vendor/samsung/dm3q/proprietary/vendor/lib64/camera/com.samsung.tuned.sony_imx754_x3.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.tuned.sony_imx754_x3.bin \
     vendor/samsung/dm3q/proprietary/vendor/lib64/camera/t_t10_dual_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/t_t10_dual_calibration.bin \
@@ -81,6 +90,19 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     com.samsung.ois.mcu_stm32g \
+    com.samsung.sensor.hi1337 \
+    com.samsung.sensor.hi847 \
+    com.samsung.sensor.imx258 \
+    com.samsung.sensor.imx374 \
+    com.samsung.sensor.imx471 \
+    com.samsung.sensor.imx564 \
+    com.samsung.sensor.imx754 \
+    com.samsung.sensor.s5k2ld \
+    com.samsung.sensor.s5k3j1 \
+    com.samsung.sensor.s5k3k1 \
+    com.samsung.sensor.s5k3lu \
+    com.samsung.sensor.s5kgn3 \
+    com.samsung.sensor.s5khp2 \
     com.qti.eisv2 \
     com.qti.eisv3 \
     com.qti.hvx.addconstant \
