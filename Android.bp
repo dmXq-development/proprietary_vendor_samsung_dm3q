@@ -3252,10 +3252,10 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libclang_rt.ubsan_standalone",
-                "libc++_shared",
                 "liblog",
                 "libm",
                 "libc",
+                "libc++_shared",
                 "libdl",
             ],
         },
