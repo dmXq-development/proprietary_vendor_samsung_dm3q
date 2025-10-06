@@ -69,7 +69,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/dm3q/proprietary/vendor/firmware/DM3_S6E3HAE_AMB681AZ01.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/DM3_S6E3HAE_AMB681AZ01.dat \
     vendor/samsung/dm3q/proprietary/vendor/firmware/Data.msc:$(TARGET_COPY_OUT_VENDOR)/firmware/Data.msc \
     vendor/samsung/dm3q/proprietary/vendor/firmware/SoundBoosterParam.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SoundBoosterParam.bin \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/a740_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_sqe.fw \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/a740_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.b00 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/a740_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.b01 \
     vendor/samsung/dm3q/proprietary/vendor/firmware/a740_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.b02 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/a740_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.elf \
     vendor/samsung/dm3q/proprietary/vendor/firmware/a740_zap.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.mbn \
     vendor/samsung/dm3q/proprietary/vendor/firmware/a740_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.mdt \
     vendor/samsung/dm3q/proprietary/vendor/firmware/bt_nvm_loading.xml:$(TARGET_COPY_OUT_VENDOR)/firmware/bt_nvm_loading.xml \
@@ -113,6 +117,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/dm3q/proprietary/vendor/firmware/evass.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b19 \
     vendor/samsung/dm3q/proprietary/vendor/firmware/evass.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.mbn \
     vendor/samsung/dm3q/proprietary/vendor/firmware/evass.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.mdt \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/gmu_gen70200.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gmu_gen70200.bin \
     vendor/samsung/dm3q/proprietary/vendor/firmware/hmtbtfw20.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/hmtbtfw20.tlv \
     vendor/samsung/dm3q/proprietary/vendor/firmware/hmtnv20.b21:$(TARGET_COPY_OUT_VENDOR)/firmware/hmtnv20.b21 \
     vendor/samsung/dm3q/proprietary/vendor/firmware/hmtnv20.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/hmtnv20.bin \
