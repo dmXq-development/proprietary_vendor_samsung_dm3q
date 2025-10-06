@@ -300,6 +300,8 @@ PRODUCT_PACKAGES += \
     libTsAf_DM123Q \
     libTsAwbFront_DM3 \
     libTsAwb_DM3 \
+    lib_SamsungRec_08020 \
+    lib_SoundAlive_play_plus_ver800 \
     libbluetooth_audio_session_aidl_qti \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
