@@ -129,7 +129,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/dm3q/proprietary/vendor/firmware/ois_mcu_stm32g_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ois_mcu_stm32g_fw.bin \
     vendor/samsung/dm3q/proprietary/vendor/firmware/tsp_stm/fts2ba61y_dm3q.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tsp_stm/fts2ba61y_dm3q.bin \
     vendor/samsung/dm3q/proprietary/vendor/firmware/vl53l8.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vl53l8.bin \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/vpu20_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mbn \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/vpu20_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v_unsigned.mbn \
     vendor/samsung/dm3q/proprietary/vendor/firmware/vpu30_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu30_4v.mbn \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/vpu30_4v_16mb.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu30_4v_16mb.mbn \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/vpu30_4v_16mb_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu30_4v_16mb_unsigned.mbn \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/vpu30_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu30_4v_unsigned.mbn \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/vpu33_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu33_4v.mbn \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/vpu33_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu33_4v_unsigned.mbn \
     vendor/samsung/dm3q/proprietary/vendor/firmware/wez02_dm3_c0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wez02_dm3_c0.bin \
     vendor/samsung/dm3q/proprietary/vendor/firmware/wez02_dm3_c1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wez02_dm3_c1.bin \
     vendor/samsung/dm3q/proprietary/vendor/firmware/wez02_dm3_c2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wez02_dm3_c2.bin \
