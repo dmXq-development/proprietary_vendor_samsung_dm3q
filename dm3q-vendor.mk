@@ -297,11 +297,14 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bttpi-impl \
     libPdSdCore \
     libSWB.camera.samsung \
+    libSWNDFilterPreview.camera.samsung \
     libTsAf_DM123Q \
     libTsAwbFront_DM3 \
     libTsAwb_DM3 \
+    libUniScaler.uniplugin@1.0 \
     lib_SamsungRec_08020 \
     lib_SoundAlive_play_plus_ver800 \
+    lib_lvacfs \
     libbluetooth_audio_session_aidl_qti \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
@@ -317,6 +320,7 @@ PRODUCT_PACKAGES += \
     libmulticam_image_optical_zoom \
     libmulticam_optical_zoom_control \
     libmulticam_video_optical_zoom \
+    libndfilter_preview.uniplugin@1.0 \
     libsehbluetooth_audio_session_aidl \
     libsoc_helper \
     libswb_interface \
