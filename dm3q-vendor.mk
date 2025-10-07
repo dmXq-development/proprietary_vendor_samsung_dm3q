@@ -286,6 +286,7 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-impl-qti \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.bluetooth@1.1-impl-qti \
+    audio.primary.kalama \
     camera.qcom \
     com.qti.chi.offline \
     com.qti.chi.override \
@@ -305,6 +306,7 @@ PRODUCT_PACKAGES += \
     lib_SamsungRec_08020 \
     lib_SoundAlive_play_plus_ver800 \
     lib_lvacfs \
+    libar-pal \
     libbluetooth_audio_session_aidl_qti \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
@@ -321,6 +323,7 @@ PRODUCT_PACKAGES += \
     libmulticam_optical_zoom_control \
     libmulticam_video_optical_zoom \
     libndfilter_preview.uniplugin@1.0 \
+    librecordalive \
     libsehbluetooth_audio_session_aidl \
     libsoc_helper \
     libswb_interface \
